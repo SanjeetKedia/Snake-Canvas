@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: cyan;
+}
+
+#canvas1 {
+  /* box-sizing: border-box; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  width: 600px;
+  height: 600px;
+}
+
+img {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
